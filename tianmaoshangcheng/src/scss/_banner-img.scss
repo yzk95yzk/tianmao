@@ -1,0 +1,43 @@
+@charset "utf-8";
+.banner-all{
+	width: 1314px;
+}
+.banner-img{
+	width:1230px;
+	height:496px;
+	margin:0 auto;
+	position: relative;
+	cursor: pointer;
+	ul li{
+		position: absolute;
+				top: 0;
+				left: 0px;
+				transition: all 1s;
+				opacity: 0;
+				img{
+					display: block;
+					width: 1230px;
+					height: 496px;
+				}
+	}
+}
+
+.banner-img{
+	ol{
+		position: absolute;
+				bottom: 40px;
+				left: 50%;
+				margin-left:-87px;
+				overflow: hidden;
+				li{
+					float: left;
+				width: 25px;
+				height: 5px;
+				margin-left: 15px;
+				background-color: rgba(0, 0, 0, 0.55);
+				text-indent: 999999px;
+				cursor: pointer;
+				border:1px solid #fff;
+				}
+	}
+}

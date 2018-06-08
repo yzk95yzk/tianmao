@@ -1,0 +1,48 @@
+@charset "utf-8";
+.big-nav {
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 200px;
+    position: absolute;
+    left:-18px;
+    top: 296px;
+    z-index: 1111;
+    margin-left: 60px;
+    li {
+        a {
+            line-height: 31px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 900;
+            margin-right: 2px;
+        }
+        i {
+            height: 21px;
+            width: 20px;
+            display: inline-block;
+            margin-left: 15px;
+            font-weight: 100;
+        }
+    }
+}
+
+@for $i from 1 through 18 {
+    .big-nav ul:nth-of-type(#{$i}) li:hover {
+        background-color: #fff;
+    }
+}
+
+@for $i from 1 through 18 {
+    .big-nav ul:nth-of-type(#{$i}) li:hover a {
+        color: blue;
+    }
+}
+
+.big-nav li div {
+    width: 840px;
+    height: 496px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    z-index: 1111
+}

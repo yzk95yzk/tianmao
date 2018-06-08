@@ -1,0 +1,187 @@
+@charset "utf-8";
+.brand-all {
+    margin-top: 35px;
+    width: 1314px;
+    .brand-auto {
+        width: 1230px;
+        margin: 0 auto;
+    }
+}
+
+.brand-first {
+    float: left;
+    display: block;
+    width: 234px;
+    height: 370px;
+    margin-right: 13px;
+    background-color: #fff;
+    .brand-first-one {
+        height: 54px;
+        background: #fff;
+        font-size: 0;
+        border-style: solid;
+        border-width: 0px 0px 1px;
+        border-color: #eeeeee;
+        position: relative;
+        .brand-span-one {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            line-height: 54px;
+            height: 18px;
+            margin-left: 10px;
+        }
+        .brand-span-two {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            line-height: 54px;
+            height: 18px;
+            margin-left: 10px;
+        }
+        a {
+            position: absolute;
+            right: 2px;
+            top: 0;
+            width: 42px;
+            height: 54px;
+            background-size: 18px 18px;
+            background-image: url(../img/31.png);
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 14px;
+            font-size: 16px;
+            color: #666;
+        }
+    }
+    a {
+        img {
+            height: 316px;
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+
+
+.brand-secoend {
+    float: left;
+    display: block;
+    width: 485px;
+    height: 370px;
+    margin-right: 13px;
+    background-color: #fff;
+    .brand-secoend-one {
+        height: 54px;
+        background: #fff;
+        font-size: 0;
+        border-style: solid;
+        border-width: 0px 0px 1px;
+        border-color: #eeeeee;
+        position: relative;
+        .brand-span-first {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            line-height: 54px;
+            height: 18px;
+            margin-left: 10px;
+        }
+        .brand-span-secoend {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-left: 10px;
+            line-height: 24px;
+            height: 44px;
+        }
+        a {
+            position: absolute;
+            right: 14px;
+            top: 0;
+            width: 42px;
+            height: 54px;
+            line-height: 54px;
+            z-index: 99;
+            background-size: 18px 18px;
+            background-image: url(../img/31.png);
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 14px;
+            font-size: 16px;
+            color: #666;
+        }
+    }
+    a {
+        img {
+            height: 316px;
+            width: 100%;
+        }
+    }
+}
+
+
+
+.brand-thred {
+    float: right;
+    display: block;
+    width: 485px;
+    height: 370px;
+    background-color: #fff;
+    .brand-thred-one {
+        height: 54px;
+        background: #fff;
+        font-size: 0;
+        border-style: solid;
+        border-width: 0px 0px 1px;
+        border-color: #eeeeee;
+        position: relative;
+        .brand-span-go {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            line-height: 54px;
+            height: 18px;
+            margin-left: 10px;
+        }
+        .brand-span-to {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-left: 10px;
+            line-height: 24px;
+            height: 44px;
+        }
+        a {
+            position: absolute;
+            right: 14px;
+            top: 0;
+            width: 42px;
+            height: 54px;
+            line-height: 54px;
+            z-index: 99;
+            background-size: 18px 18px;
+            background-image: url(../img/31.png);
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 14px;
+            font-size: 16px;
+            color: #666;
+        }
+    }
+    a {
+        img {
+            height: 316px;
+            width: 100%;
+        }
+    }
+}

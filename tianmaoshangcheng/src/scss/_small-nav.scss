@@ -1,0 +1,43 @@
+@charset "utf-8";
+.small-all{
+    width: 1314px;
+}
+.small-nav {
+    width: 1230px;
+    margin: 0 auto;
+    border-bottom: 2px solid red;
+    li {
+        float: left;
+        img {
+            display: inline-block;
+            width: 100px;
+            height: 30px;
+        }
+        a {
+            line-height: 35px;
+            cursor: pointer;
+            padding: 0 8px;
+            font-weight: 500;
+            font-size: 16px;
+            display: block;
+            color: #333333;
+            vertical-align: top;
+        }
+        a:hover {
+            color: red;
+        }
+    }
+}
+
+.nav-first {
+    width: 200px;
+    float: left;
+    color: #fff;
+    background-color: #FF0036;
+    line-height: 36px;
+    p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
